@@ -1,0 +1,20 @@
+## Interface: 20505
+## Title: TreenAH
+## IconTexture: Interface\AddOns\TreenAH\icon
+## Notes: Auction House price tracker with historical averages, tooltip pricing, and scan tools.
+## Author: Spencer Poole
+## Version: 1.1.2
+## X-Copyright: (c) 2026 Spence
+## SavedVariables: TreenAHDB
+
+Core/Utils.lua
+Core/Core.lua
+Data/DB.lua
+Data/TrackedItems.lua
+Systems/Scanner.lua
+Systems/PriceCheck.lua
+Systems/VersionCheck.lua
+UI/UI.lua
+UI/DataBrowser.lua
+UI/BrowseColumn.lua
+UI/Tooltip.lua
