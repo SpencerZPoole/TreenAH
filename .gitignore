@@ -1,0 +1,25 @@
+# Release artifacts
+dist/
+*.zip
+*.7z
+*.rar
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vs/
+
+# Script/runtime caches
+__pycache__/
+.pytest_cache/
+.cache/
