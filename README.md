@@ -8,6 +8,10 @@ TreenAH is a World of Warcraft Classic Anniversary Auction House addon for build
 
 The addon is designed for players who want a lightweight, local-first view of recent market prices without depending on an external pricing service.
 
+**Support:** If this addon helps your auction-house workflow, donations are optional and support continued maintenance, packaging, testing, and documentation.
+
+[![Sponsor on GitHub](https://img.shields.io/badge/GitHub%20Sponsors-Donate-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/SpencerZPoole) [![Donate with PayPal](https://img.shields.io/badge/PayPal-One--time%20donation-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/mrpooley92)
+
 ## Features
 
 - Records low auction prices from Auction House browse results.
@@ -154,9 +158,3 @@ When reporting an issue, include:
 
 Pull requests should keep addon behavior understandable, avoid unnecessary dependencies, and preserve the existing source layout unless a structural change is clearly justified.
 
-## Donate
-
-If this project helped you, donations are welcome. GitHub Sponsors is best for recurring sponsorships; PayPal works well for one-time donations.
-
-[![Sponsor on GitHub](https://img.shields.io/badge/GitHub%20Sponsors-Donate-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/SpencerZPoole)
-[![Donate with PayPal](https://img.shields.io/badge/PayPal-One--time%20donation-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/mrpooley92)
