@@ -1,0 +1,52 @@
+<h1>TreenAH</h1>
+
+<p><strong>TreenAH</strong> is a World of Warcraft Classic Anniversary Auction House addon for building local market history over time. It records auction prices from the results you scan or browse, then makes that data available in tooltips, Auction House browse columns, tracked lists, and <code>/pc</code> price checks.</p>
+
+<p>The addon is designed for players who want a lightweight, local-first view of recent market prices without depending on an external pricing service.</p>
+
+<p><strong>Support:</strong> If this addon helps your auction-house workflow, donations are optional and support continued maintenance, packaging, testing, and documentation.<br>
+<a href="https://github.com/sponsors/SpencerZPoole"><img src="https://img.shields.io/badge/GitHub%20Sponsors-Donate-ea4aaa?style=flat&amp;logo=githubsponsors&amp;logoColor=white" alt="Sponsor on GitHub"></a>
+<a href="https://paypal.me/mrpooley92"><img src="https://img.shields.io/badge/PayPal-One--time%20donation-00457C?style=flat&amp;logo=paypal&amp;logoColor=white" alt="Donate with PayPal"></a></p>
+
+<h2>Features</h2>
+
+<ul>
+  <li>Records low auction prices from Auction House browse results.</li>
+  <li>Builds recent historical averages for items TreenAH has seen.</li>
+  <li>Adds optional price data to item tooltips.</li>
+  <li>Adds an optional price column to the Auction House browse list.</li>
+  <li>Supports passive browsing scans, single item scans, tracked list scans, fast full scans, and slower page-based full scans.</li>
+  <li>Organizes important items into tracked lists, including an automatic Requests list for price-check requests.</li>
+  <li>Provides <code>/pc</code> price checks for your own chat window, whispers, Battle.net friends, party, raid, guild, and say chat.</li>
+  <li>Supports controlled auto-replies to <code>pc &lt;item&gt;</code> requests, with cooldowns and channel toggles.</li>
+  <li>Includes in-game quick start and slash command help windows.</li>
+  <li>Detects newer TreenAH versions seen from guild or group members.</li>
+</ul>
+
+<h2>Compatibility</h2>
+
+<ul>
+  <li>Addon folder: <code>TreenAH</code></li>
+  <li>WoW interface target: <code>20505</code></li>
+  <li>Current addon version: <code>1.1.2</code></li>
+  <li>SavedVariables file: <code>TreenAHDB</code></li>
+</ul>
+
+<p>TreenAH is currently built for the <code>_anniversary_</code> World of Warcraft client folder. If Blizzard updates the client interface version, the addon may need a <code>.toc</code> metadata update before WoW stops marking it as out of date.</p>
+
+<h2>Quick Start</h2>
+
+<ol>
+  <li>Open the Auction House.</li>
+  <li>Browse normally to let TreenAH passively collect visible auction results.</li>
+  <li>Use manual scans when you want better data faster.</li>
+  <li>Use item tooltips, the browse price column, or <code>/pc &lt;item&gt;</code> to check prices after TreenAH has recorded data for that item.</li>
+</ol>
+
+<p>In-game help is available with <code>/treenahhelp</code>, <code>/tahhelp</code>, <code>/treenahcommands</code>, or <code>/tahcommands</code>.</p>
+
+<h2>Troubleshooting</h2>
+
+<p>If the addon does not appear in the AddOns screen, check that the folder contains <code>TreenAH.toc</code> directly inside <code>Interface\AddOns\TreenAH</code>. If the path is <code>Interface\AddOns\TreenAH\TreenAH\TreenAH.toc</code>, move the inner folder up one level.</p>
+
+<p>If tooltips or <code>/pc</code> show no price, TreenAH only reports data it has recorded locally. Open the Auction House and run a scan for the item or let passive browsing collect results over time.</p>
